@@ -1,0 +1,119 @@
+{
+    "number": "10",
+    "title": "Data Transformation Techniques",
+    "full_text": " Hi students, so welcome to the new video fundamentals of data. Now in this video, we'll be talking about data transformation. So what we learn in this video, we are going to understand what is data transformation and understanding the common data transformation techniques. So let's talk about what is data transformation first. Now, as you can see, data transformation is the process of converting the data from its original format into a format that for analysis of processing. So in simple words, you have the data in a particular format, and now you are going to convert it now as per your requirements so that it can help you in analysis or processing in a good way. So some common data transformation techniques I'm going to list here. So first is the normalization. We will talk about all these things one by one. But let's see the name only the first the normalization, then we have aggregation, we have encoding, we have data integration, can also talk about the data mapping, and the last is the feature engineering. So what is normalization? So as you can see that you are doing some kind of changing the range, or you are converting the data into a particular range by looking at the name of the normalization that you are normalizing the data. So I can say that scaling the data to fall within a specific range. So often it is 0 to 1 to ensure that it that different features are on comparable scale. So the meaning the simple meaning for normalization here is sometimes what happened that we have a data set in which we have multiple variables. So let's say I have an age column, then I also have a spending column, then I also have one more column. So in each column, we have the ranges from you know, 20 to let's say 50, right. So which is not a very huge number, but we can have another variable in which we have the values ranging from 200 to 500, then we can have another so if I compare this 10,000 50,000 value to 20 30 40. So you can see that there is a huge difference. So you will learn few things in the later modules that how it's going to be in the real world, how we change the values and why exactly what is the requirement to change these things, but so far for this video now, you can understand that when you have a difference in scaling, like 10,000 or 50,000 we have a very huge difference between these values so what we try we try to normalize all these variables between 0 to 1 so all the variables will be in the same range so that we can analyze it better and some algorithms are actually very I would say sensitive when it comes to the different scaling okay so you will be talking about or working on these algorithms later on some upcoming modules but for now you can understand that we are converting the data into a specified algorithm this is normalization now converting test code to scale from 0 to 100 also one good example now let's talk about the aggregation now by looking at the name once again something you are summarizing or combining data to provide high level insights I would say so this might involve calculating the averages or you are calculating the total sum of something or other summary statistics like mean median or mode so you are summarizing your data in this case example is summarizing daily sales data into monthly totals now encoding is also the part of the data transformation and encoding means that you are converting the categorical data or the data in which you have categories like you can have categories high medium low you can have other categories okay like good bad or you can have many categories right so when you have this kind of data so sometimes there is a when you have this term right so you will travel all over them in which you will that because of data next level understanding totally exactamente it type on whether data is a underscore paper your data is also a search value or order which you are taking a category ofally different실� Mm. Gotip GUY AS. Each muss no direct. Again I also got this idea to the array of those So, you are merging customer information from a CRM with the transaction data from an ecommerce platform. So, you are integrating multiple sources data mapping transforming data from one format or schema to another to ensure compatibility. So, sometimes what happens that you have the database and you are going to transform it just because you want to feed this data into another platform. So, let's see example mapping data fields from old database schema to a new schema so you have an old database which is actually following a different schema. Schema means a structure so currently you just go ahead with this word and in upcoming modules you will get the idea as you go ahead in this domain what is the exact meaning of schema but for now in the simple words you can understand that you have a predefined format and this is an old schema which is followed by a old database now you are going to migrate or or you are going to transfer this data to a new database so in this case there is a new schema so you need to map it accordingly so that there is no problem in transferring the data from one to another. Featured engineering creating new features or modifying existing ones to improve model performance or analytical insights so what's the meaning of this one so let's see the example creating a new feature that represent the total number of transactions a customer has over a period so basically this was not available before but you are creating it by taking example from another column or you can have many examples for feature engineering to better understand this in the basic level so let's say I have a date of birth column I have an employee database and employee table so in which I have a date of birth column so anytime and I can calculate the age of the employees because I can subtract the year of birth from the two days or you know the current year so in this case it will help me to calculate the age of those peoples so there can be many more examples whenever you are deriving any column or any feature by taking example from one or more columns in your data set you can call this as feature engineering so to recap we have understood the data transformation techniques like aggregation, normalization, encoding, data integration, data mapping, and feature engineering so that's it for the transformation video and thanks for watching I'll see you in the next video",
+    "chunks": [
+        {
+            "number": "10",
+            "title": "Data Transformation Techniques",
+            "start": 0.0,
+            "end": 29.96,
+            "text": "Hi students, so welcome to the new video fundamentals of data. Now in this video, we'll be talking about data transformation. So what we learn in this video, we are going to understand what is data transformation and understanding the common data transformation techniques. So let's talk about what is data transformation first. Now, as you can see, data transformation is the process of converting the data from its original format into a format that"
+        },
+        {
+            "number": "10",
+            "title": "Data Transformation Techniques",
+            "start": 29.96,
+            "end": 59.58,
+            "text": "for analysis of processing. So in simple words, you have the data in a particular format, and now you are going to convert it now as per your requirements so that it can help you in analysis or processing in a good way. So some common data transformation techniques I'm going to list here. So first is the normalization. We will talk about all these things one by one. But let's see the name only the first the normalization, then we have aggregation, we have encoding,"
+        },
+        {
+            "number": "10",
+            "title": "Data Transformation Techniques",
+            "start": 59.58,
+            "end": 89.56,
+            "text": "we have data integration, can also talk about the data mapping, and the last is the feature engineering. So what is normalization? So as you can see that you are doing some kind of changing the range, or you are converting the data into a particular range by looking at the name of the normalization that you are normalizing the data. So I can say that scaling the data to fall within a specific range. So often it is 0 to 1 to ensure that it"
+        },
+        {
+            "number": "10",
+            "title": "Data Transformation Techniques",
+            "start": 89.56,
+            "end": 119.38,
+            "text": "that different features are on comparable scale. So the meaning the simple meaning for normalization here is sometimes what happened that we have a data set in which we have multiple variables. So let's say I have an age column, then I also have a spending column, then I also have one more column. So in each column, we have the ranges from you know, 20 to let's say 50, right. So which is not a very huge number, but we can have another variable in which we have the values ranging from 200 to 500, then we can have another"
+        },
+        {
+            "number": "10",
+            "title": "Data Transformation Techniques",
+            "start": 123.1,
+            "end": 149.26,
+            "text": "so if I compare this 10,000 50,000 value to 20 30 40. So you can see that there is a huge difference. So you will learn few things in the later modules that how it's going to be in the real world, how we change the values and why exactly what is the requirement to change these things, but so far for this video now, you can understand that when you have a difference in scaling, like 10,000 or 50,000"
+        },
+        {
+            "number": "10",
+            "title": "Data Transformation Techniques",
+            "start": 150.12,
+            "end": 180.1,
+            "text": "we have a very huge difference between these values so what we try we try to normalize all these variables between 0 to 1 so all the variables will be in the same range so that we can analyze it better and some algorithms are actually very I would say sensitive when it comes to the different scaling okay so you will be talking about or working on these algorithms later on some upcoming modules but for now you can understand that we are converting the data into a specified algorithm"
+        },
+        {
+            "number": "10",
+            "title": "Data Transformation Techniques",
+            "start": 180.1,
+            "end": 209.22,
+            "text": "this is normalization now converting test code to scale from 0 to 100 also one good example now let's talk about the aggregation now by looking at the name once again something you are summarizing or combining data to provide high level insights I would say so this might involve calculating the averages or you are calculating the total sum of something or other summary statistics like mean median or mode so you are summarizing your data in this case"
+        },
+        {
+            "number": "10",
+            "title": "Data Transformation Techniques",
+            "start": 210.4,
+            "end": 240.08,
+            "text": "example is summarizing daily sales data into monthly totals now encoding is also the part of the data transformation and encoding means that you are converting the categorical data or the data in which you have categories like you can have categories high medium low you can have other categories okay like good bad or you can have many categories right so when you have this kind of data so sometimes there is a"
+        },
+        {
+            "number": "10",
+            "title": "Data Transformation Techniques",
+            "start": 240.08,
+            "end": 267.54,
+            "text": "when you have this term right so you will travel all over them in which you will that because of data next level understanding totally exactamente it type on whether data is a underscore paper your data is also a search value or order which you are taking a category ofally different실� Mm."
+        },
+        {
+            "number": "10",
+            "title": "Data Transformation Techniques",
+            "start": 272.22,
+            "end": 297.52,
+            "text": "Gotip GUY AS. Each muss no direct. Again I also got this idea to the array of those"
+        },
+        {
+            "number": "10",
+            "title": "Data Transformation Techniques",
+            "start": 297.52,
+            "end": 327.46,
+            "text": "So, you are merging customer information from a CRM with the transaction data from an ecommerce platform. So, you are integrating multiple sources data mapping transforming data from one format or schema to another to ensure compatibility. So, sometimes what happens that you have the database and you are going to transform it just because you want to feed this data into another platform. So, let's see example mapping data fields from"
+        },
+        {
+            "number": "10",
+            "title": "Data Transformation Techniques",
+            "start": 327.64,
+            "end": 357.62,
+            "text": "old database schema to a new schema so you have an old database which is actually following a different schema. Schema means a structure so currently you just go ahead with this word and in upcoming modules you will get the idea as you go ahead in this domain what is the exact meaning of schema but for now in the simple words you can understand that you have a predefined format and this is an old schema which is followed by a old database now you are going to migrate or"
+        },
+        {
+            "number": "10",
+            "title": "Data Transformation Techniques",
+            "start": 357.62,
+            "end": 387.6,
+            "text": "or you are going to transfer this data to a new database so in this case there is a new schema so you need to map it accordingly so that there is no problem in transferring the data from one to another. Featured engineering creating new features or modifying existing ones to improve model performance or analytical insights so what's the meaning of this one so let's see the example creating a new feature that represent the total number of transactions a customer has"
+        },
+        {
+            "number": "10",
+            "title": "Data Transformation Techniques",
+            "start": 387.6,
+            "end": 417.48,
+            "text": "over a period so basically this was not available before but you are creating it by taking example from another column or you can have many examples for feature engineering to better understand this in the basic level so let's say I have a date of birth column I have an employee database and employee table so in which I have a date of birth column so anytime and I can calculate the age of the employees because I can subtract the year of birth from the two days or you know the current year"
+        },
+        {
+            "number": "10",
+            "title": "Data Transformation Techniques",
+            "start": 417.48,
+            "end": 447.28,
+            "text": "so in this case it will help me to calculate the age of those peoples so there can be many more examples whenever you are deriving any column or any feature by taking example from one or more columns in your data set you can call this as feature engineering so to recap we have understood the data transformation techniques like aggregation, normalization, encoding, data integration, data mapping, and feature engineering so that's it for the transformation video"
+        },
+        {
+            "number": "10",
+            "title": "Data Transformation Techniques",
+            "start": 447.68,
+            "end": 450.14,
+            "text": "and thanks for watching I'll see you in the next video"
+        }
+    ]
+}

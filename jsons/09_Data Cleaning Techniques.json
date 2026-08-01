@@ -1,0 +1,70 @@
+{
+    "number": "09",
+    "title": "Data Cleaning Techniques",
+    "full_text": " Hey students, welcome to the new video fundamentals of data. And in this video, we'll be talking about common data cleaning techniques. So what we learn in this video, understanding the common techniques in data cleaning and how to remove duplicates handling missing data, correcting the errors and in standardizing the data and filter outliers, etc. So first of all, let's talk about removing duplicates. because in the previous video you have learned what is data cleaning now the first thing we can learn here is that you can have duplicates in the data which is which is not good so identifying and eliminating duplicate records to ensure that each data entry is unique not all the time you have to go ahead with the unique data but sometimes what happens that you have the same record appearing multiple times which is incorrect for your analysis so that's why removing is really important now let's say for example if a database has multiple entries for the same customer duplicate record should be merged or removed because this record is actually only once but it is getting repeated due to some problem it can be any technical or non-technical problem but if you have duplicate record so this is the problem for your analysis so we have to remove this duplicate record after duplicate records we have missing values problem and this is very common so when you don't have the value for a particular record or a variable so this is called a missing value now we need to address this this can involve filling in missing values with estimates or imputation or removing the records you can completely remove the records if there are missing values but there is no hard and for example out of all the records there are very less number of records in which we have missing values so we can remove because we are not going to lose much information but if you have a lot of records which are missing and removing all these records are gonna not help you or it is going to lose a lot of information for you so that's why in this case handling the missing value is crucial and you have to the value with some other kind of values. Now, let's see the example. Now, replacing missing age with the average age or median of the other entries. So you have a data set in which you have a age column. Few values are missing for few customers or let's say for a few employees, the age is not given. So what you are trying to do, you can impute these values by calculating the median of the age of other entries. And once you get the value, you can impute this value in the missing data. after the missing values, we have to correct some kind of errors. Now, what are the errors like fixing inaccuracies such as some typos or let's say if the format is not correct or there are invalid entries. So you can have some kind of spelling problems. You can also have formatting error. Let's say some values are in the correct format and other values are not in the correct format. So it can be a date time format. For example, this example is very good. So, or you can have invalid entries. So let's say for example, I'm having a column in which a value is let's say 500. 500 is the value, but the variable is like that. It cannot accept the 500. Let's say the 500 is the number of minutes a person is doing workout, which is very, I mean, very, very hard for someone to work out for 500 minutes. Right? but it's also, that you can get the last blow, but not for the attribute it.",
+    "chunks": [
+        {
+            "number": "09",
+            "title": "Data Cleaning Techniques",
+            "start": 0.0,
+            "end": 29.98,
+            "text": "Hey students, welcome to the new video fundamentals of data. And in this video, we'll be talking about common data cleaning techniques. So what we learn in this video, understanding the common techniques in data cleaning and how to remove duplicates handling missing data, correcting the errors and in standardizing the data and filter outliers, etc. So first of all, let's talk about removing duplicates."
+        },
+        {
+            "number": "09",
+            "title": "Data Cleaning Techniques",
+            "start": 29.98,
+            "end": 59.84,
+            "text": "because in the previous video you have learned what is data cleaning now the first thing we can learn here is that you can have duplicates in the data which is which is not good so identifying and eliminating duplicate records to ensure that each data entry is unique not all the time you have to go ahead with the unique data but sometimes what happens that you have the same record appearing multiple times which is incorrect for your analysis so that's why removing"
+        },
+        {
+            "number": "09",
+            "title": "Data Cleaning Techniques",
+            "start": 59.84,
+            "end": 85.9,
+            "text": "is really important now let's say for example if a database has multiple entries for the same customer duplicate record should be merged or removed because this record is actually only once but it is getting repeated due to some problem it can be any technical or non-technical problem but if you have duplicate record so this is the problem for your analysis so we have to remove this duplicate record"
+        },
+        {
+            "number": "09",
+            "title": "Data Cleaning Techniques",
+            "start": 87.86,
+            "end": 115.86,
+            "text": "after duplicate records we have missing values problem and this is very common so when you don't have the value for a particular record or a variable so this is called a missing value now we need to address this this can involve filling in missing values with estimates or imputation or removing the records you can completely remove the records if there are missing values but there is no hard and"
+        },
+        {
+            "number": "09",
+            "title": "Data Cleaning Techniques",
+            "start": 115.86,
+            "end": 144.24,
+            "text": "for example out of all the records there are very less number of records in which we have missing values so we can remove because we are not going to lose much information but if you have a lot of records which are missing and removing all these records are gonna not help you or it is going to lose a lot of information for you so that's why in this case handling the missing value is crucial and you have to"
+        },
+        {
+            "number": "09",
+            "title": "Data Cleaning Techniques",
+            "start": 144.56,
+            "end": 173.86,
+            "text": "the value with some other kind of values. Now, let's see the example. Now, replacing missing age with the average age or median of the other entries. So you have a data set in which you have a age column. Few values are missing for few customers or let's say for a few employees, the age is not given. So what you are trying to do, you can impute these values by calculating the median of the age of other entries. And once you get the value, you can impute this value in the missing data."
+        },
+        {
+            "number": "09",
+            "title": "Data Cleaning Techniques",
+            "start": 175.28,
+            "end": 204.06,
+            "text": "after the missing values, we have to correct some kind of errors. Now, what are the errors like fixing inaccuracies such as some typos or let's say if the format is not correct or there are invalid entries. So you can have some kind of spelling problems. You can also have formatting error. Let's say some values are in the correct format and other values are not in the correct format. So it can be a date time format. For example, this example is very good."
+        },
+        {
+            "number": "09",
+            "title": "Data Cleaning Techniques",
+            "start": 204.56,
+            "end": 230.04,
+            "text": "So, or you can have invalid entries. So let's say for example, I'm having a column in which a value is let's say 500. 500 is the value, but the variable is like that. It cannot accept the 500. Let's say the 500 is the number of minutes a person is doing workout, which is very, I mean, very, very hard for someone to work out for 500 minutes. Right?"
+        },
+        {
+            "number": "09",
+            "title": "Data Cleaning Techniques",
+            "start": 452.04,
+            "end": 452.38,
+            "text": "but it's also, that you can get the last blow, but not for the attribute it."
+        }
+    ]
+}

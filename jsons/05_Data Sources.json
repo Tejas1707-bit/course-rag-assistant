@@ -1,0 +1,56 @@
+{
+    "number": "05",
+    "title": "Data Sources",
+    "full_text": " Hi students welcome to the new video of the fundamentals of data module and in this video we will be talking about what is a data source this is a very important topic when you start the data fundamentals and you're going to learn data analysis and data science so what is a data source so a data source is the origin from which data is collected or retrieved so basically data is stored somewhere it can be a database or it can be a file and this is the source you are getting the data from it and you can pull the data from the source and can analyze it so it's the place or system where the data resides before it's analyzed or processed now data sources can be physical or digital and can vary widely depending on the type of data being used right now there are types of data sources one is machine and another one is file data source so what is a machine data source first so as you can see it's written like closely linked to specific machines where they reside so basically the data is generated and you are getting the data directly from that machine this is machine data source so they rely on data source name which direct systems to where the data stored on that machine and it is not very flexible because it's not easy to share or to access so let's think about a refrigerator right so this fridge is recording that how many times you are opening and closing the door for example and what's the temperature inside the fridge okay so we can get this information directly from this machine because this fridge is a machine right so the number of times you are opening and closing the door or the temperature inside this machine or in temperature inside the fridge so this is machine data source because you are directly getting the data from it but the file data sources are different so this is a this is not confined to a single machine or application so they are typically in the form of files that are easily transferred and accessed across various devices and systems so you just think about a spreadsheet like an excel spreadsheet so in this one you have data related to customers okay so this is an excel file so you can share this file easily and because this is a file so this is a file data source it can be a file it can be a database let's say my sql server sql server these are some database names so a file data source can contain the data in a file format like an excel file or a csv file or different other file formats or it can be a fully fledged database so these are highly flexible in sharing and accessing data by various users because you can easily share the file with anyone or you can share the file or you can share the file across different systems so this is the primary difference between machine data source and file data source machine data source means that you have the data directly from the machine and file data source that you have data stored in a file format so this is the end of this video and thanks for watching I'll see you in the next video",
+    "chunks": [
+        {
+            "number": "05",
+            "title": "Data Sources",
+            "start": 0.0,
+            "end": 29.22,
+            "text": "Hi students welcome to the new video of the fundamentals of data module and in this video we will be talking about what is a data source this is a very important topic when you start the data fundamentals and you're going to learn data analysis and data science so what is a data source so a data source is the origin from which data is collected or retrieved so basically data is stored somewhere it can be a database or it can be a file"
+        },
+        {
+            "number": "05",
+            "title": "Data Sources",
+            "start": 30.04,
+            "end": 59.2,
+            "text": "and this is the source you are getting the data from it and you can pull the data from the source and can analyze it so it's the place or system where the data resides before it's analyzed or processed now data sources can be physical or digital and can vary widely depending on the type of data being used right now there are types of data sources one is machine"
+        },
+        {
+            "number": "05",
+            "title": "Data Sources",
+            "start": 59.2,
+            "end": 89.18,
+            "text": "and another one is file data source so what is a machine data source first so as you can see it's written like closely linked to specific machines where they reside so basically the data is generated and you are getting the data directly from that machine this is machine data source so they rely on data source name which direct systems to where the data stored on that machine and it is not very flexible because it's not easy to share or to access"
+        },
+        {
+            "number": "05",
+            "title": "Data Sources",
+            "start": 92.32,
+            "end": 119.16,
+            "text": "so let's think about a refrigerator right so this fridge is recording that how many times you are opening and closing the door for example and what's the temperature inside the fridge okay so we can get this information directly from this machine because this fridge is a machine right so the number of times you are opening and closing the door or the temperature inside this machine or in temperature inside the fridge so this is machine"
+        },
+        {
+            "number": "05",
+            "title": "Data Sources",
+            "start": 119.16,
+            "end": 149.04,
+            "text": "data source because you are directly getting the data from it but the file data sources are different so this is a this is not confined to a single machine or application so they are typically in the form of files that are easily transferred and accessed across various devices and systems so you just think about a spreadsheet like an excel spreadsheet so in this one you have data related to customers okay so this is an excel file so you can share this file easily"
+        },
+        {
+            "number": "05",
+            "title": "Data Sources",
+            "start": 149.04,
+            "end": 178.74,
+            "text": "and because this is a file so this is a file data source it can be a file it can be a database let's say my sql server sql server these are some database names so a file data source can contain the data in a file format like an excel file or a csv file or different other file formats or it can be a fully fledged database so these are highly flexible in sharing and accessing data by various users because you can easily share the file with anyone"
+        },
+        {
+            "number": "05",
+            "title": "Data Sources",
+            "start": 178.74,
+            "end": 200.0,
+            "text": "or you can share the file or you can share the file across different systems so this is the primary difference between machine data source and file data source machine data source means that you have the data directly from the machine and file data source that you have data stored in a file format so this is the end of this video and thanks for watching I'll see you in the next video"
+        }
+    ]
+}

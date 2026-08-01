@@ -1,0 +1,35 @@
+{
+    "number": "08",
+    "title": "Data Cleaning",
+    "full_text": " Hi students, so welcome to the fundamentals of data and let's talk about what is data cleaning So in this video, we'll be talking about the data cleaning Now what is data cleaning? As you can see data cleaning is the process of identifying and correcting errors and inconsistencies in data to improve its quality and reliability Now this is the definition from book, right? dasing that data cleaning is the process of simple your correcting the data or you are removing the errors which is actually Completely clear from this definition, but now why it is required? It's required because you are going to work with the data right? So the data quality is very important You have the data it doesn't matter how big the data is it can be in kilobytes Megabytes terabytes petabytes gigabytes. But But if you don't have the quality data, then the problem is that it will definitely give you the wrong results and can have many other problems as well when you process the data or when you analyze the data. So data cleaning is essential for accurate reporting, analysis and the decision making. Because as you have now you have the correct data, all the things are correct. There is no inconsistency. There is no problem of errors. There is no such kind of missing values. So you can easily analyze the data and you can get the good results and based on that the decision making will be very good. So the goal is to ensure that the data is accurate, complete and consistent and the data is free from the errors. So this is the data cleaning and this ends the video. So thanks so much for watching and I'll see you in the next video.",
+    "chunks": [
+        {
+            "number": "08",
+            "title": "Data Cleaning",
+            "start": 0.0,
+            "end": 29.68,
+            "text": "Hi students, so welcome to the fundamentals of data and let's talk about what is data cleaning So in this video, we'll be talking about the data cleaning Now what is data cleaning? As you can see data cleaning is the process of identifying and correcting errors and inconsistencies in data to improve its quality and reliability Now this is the definition from book, right?"
+        },
+        {
+            "number": "08",
+            "title": "Data Cleaning",
+            "start": 29.68,
+            "end": 59.0,
+            "text": "dasing that data cleaning is the process of simple your correcting the data or you are removing the errors which is actually Completely clear from this definition, but now why it is required? It's required because you are going to work with the data right? So the data quality is very important You have the data it doesn't matter how big the data is it can be in kilobytes Megabytes terabytes petabytes gigabytes. But"
+        },
+        {
+            "number": "08",
+            "title": "Data Cleaning",
+            "start": 59.0,
+            "end": 88.9,
+            "text": "But if you don't have the quality data, then the problem is that it will definitely give you the wrong results and can have many other problems as well when you process the data or when you analyze the data. So data cleaning is essential for accurate reporting, analysis and the decision making. Because as you have now you have the correct data, all the things are correct. There is no inconsistency. There is no problem of errors. There is no such kind of missing values."
+        },
+        {
+            "number": "08",
+            "title": "Data Cleaning",
+            "start": 89.0,
+            "end": 111.3,
+            "text": "So you can easily analyze the data and you can get the good results and based on that the decision making will be very good. So the goal is to ensure that the data is accurate, complete and consistent and the data is free from the errors. So this is the data cleaning and this ends the video. So thanks so much for watching and I'll see you in the next video."
+        }
+    ]
+}

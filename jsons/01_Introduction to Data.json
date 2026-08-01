@@ -1,0 +1,42 @@
+{
+    "number": "01",
+    "title": "Introduction to Data",
+    "full_text": " Hello students, welcome to the new video Fundamentals of Data module. So in this video, we will be talking about what is data. So in simple words, data is simply a piece of information that can be anything from numbers to words or to pictures and sound. All right. So it's like the raw material that we collect to understand or solve a problem. Let's say for example, if you are tracking that how many steps you take each day. So you can collect the number of steps as the data. So this will be called as data. And by looking at this data, you can figure out the patterns. Like for example, you can figure out if you are more active on weekends or weekdays because you are collecting this information on every day. All right. So data refers to the raw fact and figure that can be processed to gain insights. And as I said, it can be in the form of text. It can be in the form of numbers. It can be in the form of audio. and it can also be in the form of video. Data is categorized into multiple categories, which you will learn in upcoming videos. So for example, how we divide data into categories. Data can be categorized as structured data, semi-structured data, unstructured data, which is very important to understand, which you will learn in the next video. But data is the foundation for creating knowledge and making informed decisions in various fields like business, technology and science. So that's it for this video. Thank you so much. And I'll see you in the next video. Thank you.",
+    "chunks": [
+        {
+            "number": "01",
+            "title": "Introduction to Data",
+            "start": 0.0,
+            "end": 29.9,
+            "text": "Hello students, welcome to the new video Fundamentals of Data module. So in this video, we will be talking about what is data. So in simple words, data is simply a piece of information that can be anything from numbers to words or to pictures and sound. All right. So it's like the raw material that we collect to understand or solve a problem. Let's say for example, if you are tracking that how many steps"
+        },
+        {
+            "number": "01",
+            "title": "Introduction to Data",
+            "start": 30.02,
+            "end": 59.32,
+            "text": "you take each day. So you can collect the number of steps as the data. So this will be called as data. And by looking at this data, you can figure out the patterns. Like for example, you can figure out if you are more active on weekends or weekdays because you are collecting this information on every day. All right. So data refers to the raw fact and figure that can be processed to gain insights. And as I said, it can be in the form of text. It can be in the form of numbers. It can be in the form of audio."
+        },
+        {
+            "number": "01",
+            "title": "Introduction to Data",
+            "start": 59.32,
+            "end": 89.3,
+            "text": "and it can also be in the form of video. Data is categorized into multiple categories, which you will learn in upcoming videos. So for example, how we divide data into categories. Data can be categorized as structured data, semi-structured data, unstructured data, which is very important to understand, which you will learn in the next video. But data is the foundation for creating knowledge and making informed decisions in various fields like business,"
+        },
+        {
+            "number": "01",
+            "title": "Introduction to Data",
+            "start": 90.12,
+            "end": 95.0,
+            "text": "technology and science. So that's it for this video. Thank you so much. And I'll see you in the next video."
+        },
+        {
+            "number": "01",
+            "title": "Introduction to Data",
+            "start": 95.0,
+            "end": 95.14,
+            "text": "Thank you."
+        }
+    ]
+}

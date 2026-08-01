@@ -1,0 +1,105 @@
+{
+    "number": "06",
+    "title": "Common Data Sources",
+    "full_text": " Dr. Hello students, welcome to the new video of Fundamentals of Data Module. So, in this video, we will be talking about the data sources and what are some common data sources. So, databases, this is the first thing because when we collect the data and when we try to store the data, a database is required. And database is the collection of organized data. So when you want to organize the data and you want to retrieve it in a good way, then you have to collect it in a database and you have to store it in a database. So you can store this electronically. Now these are the names of some most common databases I would say. MySQL is an open source relational database and PostgreSQL is also another database management system and MongoDB. is also another database and this is for non-relational as well. So we have two kinds of databases like relational databases and non-relational databases. Few things you are going to learn in your upcoming modules, the exact difference between the relational and non-relational database, but because you already know from your previous videos about structured and unstructured data. So the data which is structured in form and it's connected with the means of relations. So you can and you can have multiple tables in a database like a table of customers, a table of orders, a table of products. So these tables are connected with a common column between them. So that's why we call these as relational databases because there is a relation between these tables, but we also have non-relational databases and these databases are like you have the example here, which is MongoDB. So nowadays these kind of database are also required because we have the data that is in unstructured or semi-structured format. So for now the only thing you have to understand is that a data source can be a database and here MySQL and MongoDB. These are some most common databases. Data can be in spreadsheets like Excel file or a CSV file. So files like spreadsheet that store data in tabular form allowing for and so on. So here you can see the example, it can be Google sheet or a Microsoft Excel file which is running on your local server or it can be on cloud. The third category we have API. So API stands for application programming interfaces. To understand API in simple words, you can understand API as a is a tool which is used to connect two different kinds of softwares. So to give you an example of application programming interfaces or API. Let's imagine that you are going to a restaurant, right? So as a customer, I don't have direct access to kitchen. Okay. And the chef who's preparing the food is not also having the direct access to the customer. So customer cannot directly talk to chef and chef cannot directly talk to Eskti. So the server will come to you as well so the server will come to you will take your order will note down the order and then it will transfer to the kitchen department and then chef will prepare the food and it will transfer it to you by this server. Okay, so there is no direct connection. So now you can think about to different software software's a software which is running on your mobile phone or your computer. You can see the full server which is running your mobile for example, an e-commerce application. So you can order the food, you can order the clothes, you can order any item, right? But you don't know what is happening in the back-end because back-end there is a database which holds all these values like the information about the product, the stock level, the price information. So you just click on buy now and then your order is placed, right? But what is happening under the hood, you don't have to worry about this. So how this application is interacting with the database? By the help of APA. So interfaces provided by websites or application that allow you to retrieve data by using any programming language. So API is one category here. For example, you can have a Twitter API so you can get the tweets by using Twitter API. We can also get the data from surveys and questionnaires. So this is one more data source. These tools are used to gather data directly from from individuals by taking surveys and questions. So it can be an online survey or it can be an in-person interviews to get the data. Nowadays, we can get the data from IoT devices or sensors. IoT stands for Internet of Things. So you can get the data from different kind of machines. And if you remember, we have talked about machine data sources where you are directly capturing the data from a machine. So hardware that collects data from a machine is a machine. So data from the environment such as weather stations or you can also collect the data from smart home devices. These sensors and IoT devices are also common data sources nowadays. You can use social media applications like Facebook, Twitter, Instagram with data such as users post and the interactions and the comments are generated. So social media applications are also the data source here. You can get the information and the data from different websites, including articles, and other digital content. Documents such as research paper or the reports from industry and government publications that provide data on various topics. These are also common data sources. So this is the last category in our list. And we have talked about some common data sources. It can be database. It can be an Excel file or a Google sheet or CSV file. It can be directly from machines like IoT devices and sensors. or it can be from any API provided by the website. So this is the end of this section. Thanks for watching. I'll see you in the next video.",
+    "chunks": [
+        {
+            "number": "06",
+            "title": "Common Data Sources",
+            "start": 0.0,
+            "end": 26.22,
+            "text": "Dr. Hello students, welcome to the new video of Fundamentals of Data Module. So, in this video, we will be talking about the data sources and what are some common data sources. So, databases, this is the first thing because when we collect the data and when we try to store the data, a database is required. And database is the collection of organized data."
+        },
+        {
+            "number": "06",
+            "title": "Common Data Sources",
+            "start": 26.22,
+            "end": 54.8,
+            "text": "So when you want to organize the data and you want to retrieve it in a good way, then you have to collect it in a database and you have to store it in a database. So you can store this electronically. Now these are the names of some most common databases I would say. MySQL is an open source relational database and PostgreSQL is also another database management system and MongoDB."
+        },
+        {
+            "number": "06",
+            "title": "Common Data Sources",
+            "start": 54.8,
+            "end": 84.78,
+            "text": "is also another database and this is for non-relational as well. So we have two kinds of databases like relational databases and non-relational databases. Few things you are going to learn in your upcoming modules, the exact difference between the relational and non-relational database, but because you already know from your previous videos about structured and unstructured data. So the data which is structured in form and it's connected with the means of relations. So you can"
+        },
+        {
+            "number": "06",
+            "title": "Common Data Sources",
+            "start": 84.78,
+            "end": 114.76,
+            "text": "and you can have multiple tables in a database like a table of customers, a table of orders, a table of products. So these tables are connected with a common column between them. So that's why we call these as relational databases because there is a relation between these tables, but we also have non-relational databases and these databases are like you have the example here, which is MongoDB. So nowadays these kind of database are also required because we have the data"
+        },
+        {
+            "number": "06",
+            "title": "Common Data Sources",
+            "start": 114.76,
+            "end": 144.5,
+            "text": "that is in unstructured or semi-structured format. So for now the only thing you have to understand is that a data source can be a database and here MySQL and MongoDB. These are some most common databases. Data can be in spreadsheets like Excel file or a CSV file. So files like spreadsheet that store data in tabular form allowing for"
+        },
+        {
+            "number": "06",
+            "title": "Common Data Sources",
+            "start": 144.5,
+            "end": 174.18,
+            "text": "and so on. So here you can see the example, it can be Google sheet or a Microsoft Excel file which is running on your local server or it can be on cloud. The third category we have API. So API stands for application programming interfaces. To understand API in simple words, you can understand API as a"
+        },
+        {
+            "number": "06",
+            "title": "Common Data Sources",
+            "start": 174.18,
+            "end": 204.14,
+            "text": "is a tool which is used to connect two different kinds of softwares. So to give you an example of application programming interfaces or API. Let's imagine that you are going to a restaurant, right? So as a customer, I don't have direct access to kitchen. Okay. And the chef who's preparing the food is not also having the direct access to the customer. So customer cannot directly talk to chef and chef cannot directly talk to"
+        },
+        {
+            "number": "06",
+            "title": "Common Data Sources",
+            "start": 206.54,
+            "end": 234.12,
+            "text": "Eskti. So the server will come to you as well so the server will come to you will take your order will note down the order and then it will transfer to the kitchen department and then chef will prepare the food and it will transfer it to you by this server. Okay, so there is no direct connection. So now you can think about to different software software's a software which is running on your mobile phone or your computer. You can see the full server which is running your mobile"
+        },
+        {
+            "number": "06",
+            "title": "Common Data Sources",
+            "start": 234.12,
+            "end": 264.1,
+            "text": "for example, an e-commerce application. So you can order the food, you can order the clothes, you can order any item, right? But you don't know what is happening in the back-end because back-end there is a database which holds all these values like the information about the product, the stock level, the price information. So you just click on buy now and then your order is placed, right? But what is happening under the hood, you don't have to worry about this. So how this application is interacting with the database? By the help of APA."
+        },
+        {
+            "number": "06",
+            "title": "Common Data Sources",
+            "start": 264.1,
+            "end": 293.84,
+            "text": "So interfaces provided by websites or application that allow you to retrieve data by using any programming language. So API is one category here. For example, you can have a Twitter API so you can get the tweets by using Twitter API. We can also get the data from surveys and questionnaires. So this is one more data source. These tools are used to gather data directly from"
+        },
+        {
+            "number": "06",
+            "title": "Common Data Sources",
+            "start": 293.84,
+            "end": 323.82,
+            "text": "from individuals by taking surveys and questions. So it can be an online survey or it can be an in-person interviews to get the data. Nowadays, we can get the data from IoT devices or sensors. IoT stands for Internet of Things. So you can get the data from different kind of machines. And if you remember, we have talked about machine data sources where you are directly capturing the data from a machine. So hardware that collects data from a machine is a machine."
+        },
+        {
+            "number": "06",
+            "title": "Common Data Sources",
+            "start": 323.82,
+            "end": 353.46,
+            "text": "So data from the environment such as weather stations or you can also collect the data from smart home devices. These sensors and IoT devices are also common data sources nowadays. You can use social media applications like Facebook, Twitter, Instagram with data such as users post and the interactions and the comments are generated. So social media applications are also the data source here. You can get the information and the data from different websites, including articles,"
+        },
+        {
+            "number": "06",
+            "title": "Common Data Sources",
+            "start": 354.2,
+            "end": 382.52,
+            "text": "and other digital content. Documents such as research paper or the reports from industry and government publications that provide data on various topics. These are also common data sources. So this is the last category in our list. And we have talked about some common data sources. It can be database. It can be an Excel file or a Google sheet or CSV file. It can be directly from machines like IoT devices and sensors."
+        },
+        {
+            "number": "06",
+            "title": "Common Data Sources",
+            "start": 382.52,
+            "end": 390.68,
+            "text": "or it can be from any API provided by the website. So this is the end of this section. Thanks for watching. I'll see you in the next video."
+        }
+    ]
+}

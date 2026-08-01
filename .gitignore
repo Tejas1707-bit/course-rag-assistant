@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment
+.env
+
+# AI Models
+models/
+
+# FFmpeg
+ffmpeg-master-latest-win64-gpl-shared/
+
+# Vector Databases
+chroma_db/
+faiss_index/
+db/
+vector_store/
+
+# Jupyter
+.ipynb_checkpoints/
+
+*.pkl
+*.zip

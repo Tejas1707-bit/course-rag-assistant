@@ -1,0 +1,301 @@
+{
+    "number": "04",
+    "title": "Descriptive and Inferential Statistics",
+    "full_text": " Hi students welcome to the new video fundamentals of data module so what we will learn in this video understanding the descriptive statistics and what is inferential statistics so let's talk about descriptive statistics first so descriptive statistics means that we are summarizing the data or we are describing the data so we have the main features in the data set and we have a summary so we can have the mean of the data we can have the median and the mode which is most frequent value so you can imagine we can have any column you can calculate the average so this is arithmetic mean in the technical terms but we call it average in day to day life and the middle value of the data if it is sorted properly then the middle value is called as median and the value which is most frequent so we call it mode but we also have measure of spread which is standard deviation the standard deviation nothing but it's the standard value of the variance so it's a square root of the variance So what is variance variance in simple words that it calculates how far the values are from the mean so these things can help us to understand our data in a good way that's why we call it descriptive statistics because it is describing the data so in for example let's say you have a list of students grade right so descriptive statistics will help you to understand the average of the grades of the students right and you can also look at how the grades are distributed in the class So you can look at for the low grades with the high grades and calculating the average will help you to understand what is the average grade in the class So descriptive statistics is helpful in understanding your data or summarizing your data These techniques are used to make predictions or generalization about a population based on sample of data So in simple words you can see two words here population and sample So when you are talking about the whole group we call it population but when we take a small subset of that group we call it sample So let's imagine there are 50 students in a class right if you study all the 50 students then you are working on population Because you are talking about the whole class but let's say if I take only 10 students from the 50 students then I have a sample Okay, so I'm not actually working on all these 50 students. I'm just trying to understand these 10 students It means I'm working on a subset. Okay, so that that's why we call it sample now Now the inferential statistics involves hypothesis testing confidence interval and regression analysis also So what are these things? So hypothesis testing means that you are building a hypothesis So let's imagine that you have there is a new diet plan and you are trying to understand if this diet plan is helping the people to lose weight or not So we will start building the hypothesis that there is no effect on on the weight of the people using this new diet plan We will collect the data. We will study the data and then we will make the conclusion So this is hypothesis testing now. What is confidence interval? Confidence interval is very easy to understand in simple words. This is the range where we expect the value to fall So we are 100% sure that the values will be in this range if the confidence interval is 100% But mostly when we do statistical analysis we take confidence interval is 95% It means that we are 95% confident that the values will fall in this range You can take any range and then you can say that I'm 95% confident that the values will fall in this range So this is 95% confidence level in this example Then what is regression analysis? Regression analysis means that we have a variable and we are predicting this variable by taking the example from another variable So for example, let's say I have the prices of the house and the size of the house So the price of the house is dependent on the size of the house So I can understand what is the effect of the size of the house on the price of the house As the size of the house is increasing the price of the house is also increasing for example So this is the regression analysis example So let's say for example if you survey a sample of voters Inferential statistics can help you predict the voting behavior of the entire population based on your sample This is one more good example of inferential statistics So in this video we have learned about the descriptive and inferential statistics Descriptive statistics is used to describe your data And inferential statistics is used to make conclusion or make the inferences from the data So that's it for this video Thanks for watching and I'll see you in the next video Thank you Thank you Thank you Thank you",
+    "chunks": [
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 0.0,
+            "end": 29.9,
+            "text": "Hi students welcome to the new video fundamentals of data module so what we will learn in this video understanding the descriptive statistics and what is inferential statistics so let's talk about descriptive statistics first so descriptive statistics means that we are summarizing the data or we are describing the data so we have the main features in the data set and we have a summary so we can have the mean of the data we can have the median and the mode which is most frequent value so you can imagine"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 29.9,
+            "end": 59.42,
+            "text": "we can have any column you can calculate the average so this is arithmetic mean in the technical terms but we call it average in day to day life and the middle value of the data if it is sorted properly then the middle value is called as median and the value which is most frequent so we call it mode but we also have measure of spread which is standard deviation the standard deviation nothing but it's the standard value of the variance so it's a square root of the variance"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 59.42,
+            "end": 89.08,
+            "text": "So what is variance variance in simple words that it calculates how far the values are from the mean so these things can help us to understand our data in a good way that's why we call it descriptive statistics because it is describing the data so in for example let's say you have a list of students grade right so descriptive statistics will help you to understand the average of the grades of the students right and you can also look at how the grades are distributed in the class"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 89.08,
+            "end": 98.02,
+            "text": "So you can look at for the low grades with the high grades and calculating the average will help you to understand what is the average grade in the class"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 98.58,
+            "end": 103.8,
+            "text": "So descriptive statistics is helpful in understanding your data or summarizing your data"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 103.8,
+            "end": 112.62,
+            "text": "These techniques are used to make predictions or generalization about a population based on sample of data"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 112.62,
+            "end": 117.5,
+            "text": "So in simple words you can see two words here population and sample"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 117.5,
+            "end": 126.04,
+            "text": "So when you are talking about the whole group we call it population but when we take a small subset of that group we call it sample"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 126.04,
+            "end": 134.3,
+            "text": "So let's imagine there are 50 students in a class right if you study all the 50 students then you are working on population"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 134.3,
+            "end": 142.8,
+            "text": "Because you are talking about the whole class but let's say if I take only 10 students from the 50 students then I have a sample"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 142.8,
+            "end": 150.78,
+            "text": "Okay, so I'm not actually working on all these 50 students. I'm just trying to understand these 10 students"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 150.78,
+            "end": 155.78,
+            "text": "It means I'm working on a subset. Okay, so that that's why we call it sample now"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 155.9,
+            "end": 163.46,
+            "text": "Now the inferential statistics involves hypothesis testing confidence interval and regression analysis also"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 163.46,
+            "end": 168.44,
+            "text": "So what are these things? So hypothesis testing means that you are building a hypothesis"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 168.44,
+            "end": 177.68,
+            "text": "So let's imagine that you have there is a new diet plan and you are trying to understand if this diet plan is helping the people to lose weight or not"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 177.68,
+            "end": 184.96,
+            "text": "So we will start building the hypothesis that there is no effect on on the weight of the people using this new diet plan"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 184.96,
+            "end": 189.9,
+            "text": "We will collect the data. We will study the data and then we will make the conclusion"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 189.9,
+            "end": 193.64,
+            "text": "So this is hypothesis testing now. What is confidence interval?"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 194.26,
+            "end": 200.96,
+            "text": "Confidence interval is very easy to understand in simple words. This is the range where we expect the value to fall"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 200.96,
+            "end": 207.42,
+            "text": "So we are 100% sure that the values will be in this range if the confidence interval is 100%"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 207.42,
+            "end": 213.8,
+            "text": "But mostly when we do statistical analysis we take confidence interval is 95%"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 213.8,
+            "end": 218.74,
+            "text": "It means that we are 95% confident that the values will fall in this range"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 218.74,
+            "end": 225.72,
+            "text": "You can take any range and then you can say that I'm 95% confident that the values will fall in this range"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 225.72,
+            "end": 230.22,
+            "text": "So this is 95% confidence level in this example"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 230.22,
+            "end": 241.64,
+            "text": "Then what is regression analysis? Regression analysis means that we have a variable and we are predicting this variable by taking the example from another variable"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 241.64,
+            "end": 246.92,
+            "text": "So for example, let's say I have the prices of the house and the size of the house"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 246.92,
+            "end": 249.9,
+            "text": "So the price of the house is dependent on the size of the house"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 249.9,
+            "end": 256.02,
+            "text": "So I can understand what is the effect of the size of the house on the price of the house"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 256.02,
+            "end": 260.72,
+            "text": "As the size of the house is increasing the price of the house is also increasing for example"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 260.72,
+            "end": 263.5,
+            "text": "So this is the regression analysis example"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 263.5,
+            "end": 267.36,
+            "text": "So let's say for example if you survey a sample of voters"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 267.36,
+            "end": 273.68,
+            "text": "Inferential statistics can help you predict the voting behavior of the entire population based on your sample"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 273.68,
+            "end": 277.38,
+            "text": "This is one more good example of inferential statistics"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 277.38,
+            "end": 281.86,
+            "text": "So in this video we have learned about the descriptive and inferential statistics"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 281.86,
+            "end": 285.8,
+            "text": "Descriptive statistics is used to describe your data"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 285.8,
+            "end": 293.28,
+            "text": "And inferential statistics is used to make conclusion or make the inferences from the data"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 293.28,
+            "end": 295.54,
+            "text": "So that's it for this video"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 295.54,
+            "end": 297.66,
+            "text": "Thanks for watching and I'll see you in the next video"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 297.66,
+            "end": 298.48,
+            "text": "Thank you"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 298.48,
+            "end": 298.5,
+            "text": "Thank you"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 298.5,
+            "end": 298.92,
+            "text": "Thank you"
+        },
+        {
+            "number": "04",
+            "title": "Descriptive and Inferential Statistics",
+            "start": 298.92,
+            "end": 299.0,
+            "text": "Thank you"
+        }
+    ]
+}

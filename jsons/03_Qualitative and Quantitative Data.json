@@ -1,0 +1,49 @@
+{
+    "number": "03",
+    "title": "Qualitative and Quantitative Data",
+    "full_text": " Hi students, welcome to the new video of Fundamentals of Data module. So in this video, we will be talking about qualitative and quantitative data. So in the previous video, we have learned about what is structured, semi-structured and unstructured data. Data can be categorized as qualitative and quantitative as well. So in this video, we will try to understand qualitative data and quantitative data. So what is qualitative data? Qualitative data describes characteristics or qualities. So this is actually non-numeric in nature. We don't have numbers here. So we are describing the quality of something. So it's used to understand the concepts or the experiences or the opinion. So because we don't have any number here. Okay, so it's kind of a description or a description which is actually driving or describing the quality of something. For example, description of customer feeling about product or open-ended survey responses. So you have bought the product and now you are writing some reviews on it. So it can be positive, it can be negative, it can be a good review, can be a bad review as per the your understanding of the product. Okay, so here we don't have any number, you are just describing the quality of something. Okay, now the next one is the quantitative data. So as the name suggests that this data is numeric in nature and it can be measured or counted. If I talk about the previous category, you cannot measure it, right? You cannot count it. You can just only look at it and you can just try to find out if it's positive or negative, right? But in quantitative data, you can measure this kind of data. You can count this data. It's used to quantify variables and can be subject to statistical analysis. It means that when you have the numbers, okay, so you can perform statistical analysis on this one. You can count, you can perform some, you can find out the average, and you can do many more calculations on it. So that's why we call it a quantitative data. Example for this, like a sales figure, temperature reading or test score or your weight height. It can be any data which is in the form of numbers. So you can perform the sum, average or you can easily count or work with these kind of aggregations. So this is the quantitative data examples. So to recap, we have two categories. One is qualitative and one is quantitative data. So qualitative qualitative data in simple words is describing the quality of something and quantitative data can be measured or count. So that's it for this video. Thanks for watching and I'll see you in the next video.",
+    "chunks": [
+        {
+            "number": "03",
+            "title": "Qualitative and Quantitative Data",
+            "start": 0.0,
+            "end": 29.34,
+            "text": "Hi students, welcome to the new video of Fundamentals of Data module. So in this video, we will be talking about qualitative and quantitative data. So in the previous video, we have learned about what is structured, semi-structured and unstructured data. Data can be categorized as qualitative and quantitative as well. So in this video, we will try to understand qualitative data and quantitative data. So what is qualitative data? Qualitative data describes"
+        },
+        {
+            "number": "03",
+            "title": "Qualitative and Quantitative Data",
+            "start": 29.34,
+            "end": 59.22,
+            "text": "characteristics or qualities. So this is actually non-numeric in nature. We don't have numbers here. So we are describing the quality of something. So it's used to understand the concepts or the experiences or the opinion. So because we don't have any number here. Okay, so it's kind of a description or a description which is actually driving or describing the quality of something. For example, description of customer feeling about"
+        },
+        {
+            "number": "03",
+            "title": "Qualitative and Quantitative Data",
+            "start": 59.38,
+            "end": 89.22,
+            "text": "product or open-ended survey responses. So you have bought the product and now you are writing some reviews on it. So it can be positive, it can be negative, it can be a good review, can be a bad review as per the your understanding of the product. Okay, so here we don't have any number, you are just describing the quality of something. Okay, now the next one is the quantitative data. So as the name suggests that this data is numeric in nature and it can be measured or counted."
+        },
+        {
+            "number": "03",
+            "title": "Qualitative and Quantitative Data",
+            "start": 89.96,
+            "end": 119.86,
+            "text": "If I talk about the previous category, you cannot measure it, right? You cannot count it. You can just only look at it and you can just try to find out if it's positive or negative, right? But in quantitative data, you can measure this kind of data. You can count this data. It's used to quantify variables and can be subject to statistical analysis. It means that when you have the numbers, okay, so you can perform statistical analysis on this one. You can count, you can perform some, you can find out the average,"
+        },
+        {
+            "number": "03",
+            "title": "Qualitative and Quantitative Data",
+            "start": 119.96,
+            "end": 149.78,
+            "text": "and you can do many more calculations on it. So that's why we call it a quantitative data. Example for this, like a sales figure, temperature reading or test score or your weight height. It can be any data which is in the form of numbers. So you can perform the sum, average or you can easily count or work with these kind of aggregations. So this is the quantitative data examples. So to recap, we have two categories. One is qualitative"
+        },
+        {
+            "number": "03",
+            "title": "Qualitative and Quantitative Data",
+            "start": 149.78,
+            "end": 164.3,
+            "text": "and one is quantitative data. So qualitative qualitative data in simple words is describing the quality of something and quantitative data can be measured or count. So that's it for this video. Thanks for watching and I'll see you in the next video."
+        }
+    ]
+}

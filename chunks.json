@@ -1,0 +1,37 @@
+[
+    {
+        "start": 0.0,
+        "end": 29.86,
+        "text": "Hi students, welcome to the new video fundamentals of data module. So in this video, we'll be talking about the types of data and how we categorize the data. So what we learn in this video, we will be learning about the structure data, understanding the semi structure data, and what is the meaning of unstructured data. So let's talk about the structure data first. So structure data is the type of data which is organized in a fixed format. So there is a fixed format"
+    },
+    {
+        "start": 29.86,
+        "end": 59.76,
+        "text": "for this one. And we can also call it fixed schema, because we can put this kind of data in the form of rows and columns. So in simple words, everyone can understand that when we see something in a form of table where the data is organized in the form of rows and columns, this is called structured data, because we have a fixed format here. Okay, before you enter the data, you need to create that table, you need to have a clear understanding on rows"
+    },
+    {
+        "start": 59.76,
+        "end": 89.38,
+        "text": "and columns, how many columns will be there or how many records you're going to add on it. So it is very easy to search and analyze and manage this kind of data. So this is structured data. Example for this one data in spreadsheet, like an Excel spreadsheet, or in a relational database where information is neatly arranged, as I said, in the rows and columns. Now what is semi structured data? So semi structured data is the data which is not completely structured."
+    },
+    {
+        "start": 89.38,
+        "end": 118.62,
+        "text": "like in the form of rows and columns, but it's also not unstructured, meaning that this data doesn't fit neatly into the form of tables, but still has some organizational properties, not in the form of rows and columns, but has some kind of fixed format, not the fully 100% structured. So for example, if we talk about the emails, where the data is organized with the fields like we have a sender, we have a recipient,"
+    },
+    {
+        "start": 118.62,
+        "end": 148.6,
+        "text": "and subject, but the body text is free form, there is no row and column kind of thing in simple words. So we have a small structure, that's why we call it semi structure, but it's not completely structured, like in the form of rows and columns. Now the third category is unstructured data. Now what is unstructured data? This type of data lacks a predefined format, meaning that there is no predefined format like when you add the data in the form of table or rows and columns."
+    },
+    {
+        "start": 148.6,
+        "end": 178.54,
+        "text": "So there is no structure. Now this kind of thing making it more difficult to analyze because we don't have any predefined format for this one. So example for this one, like your text documents or audio or a video, social media posts, where the information is not organized because we cannot put an audio file or a video file like MP4 or MKV video file or MP3 or AAC video audio file. We cannot put these things in the form of"
+    },
+    {
+        "start": 178.54,
+        "end": 201.6,
+        "text": "of rows and columns. So these type of documents or audio files, video files, images are in the category of unstructured data. So we have looked at unstructured data, semistructured data, and unstructured data. I hope that you have the clear understanding on all these formats now. So that's it for this video and thank you so much for watching, I will see you in the next video."
+    }
+]

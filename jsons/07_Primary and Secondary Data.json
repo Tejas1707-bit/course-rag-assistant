@@ -1,0 +1,70 @@
+{
+    "number": "07",
+    "title": "Primary and Secondary Data",
+    "full_text": " Hi students, welcome to the new video of Fundamentals of Data module. So in this one, we'll be talking about primary and secondary data. So what we will learn in this video, we'll try to understand the characteristics of primary data and understanding the characteristics of the secondary data. So, so far we have learned about the structured, semi-structured and unstructured and data can also be classified as the qualitative data and the quantitative data. But we can also classify the data as primary data and the secondary data. So what is primary data first? So as per the definition, the data collected directly from firsthand sources specifically for a particular research purpose or project. So basically you are going to collect this data and this is the firsthand data. So you are not getting the data from anywhere. Okay. So you are on the ground level if you are collecting this data. So this is called the primary data and the characteristic for the primary data. is that this is original and specific to the research because you are doing research on a particular topic, right? So you will be conducting the interview or you will be collecting this primary data specific to this topic and you are not going to record anything else. So collected through methods like surveys, experiments, interviews or observations. Let's see an example of primary data like conducting a new survey to understand consumer preferences or you are running an experiment So you are not getting this data from any source. So this is the first hand data. In the first example, you are conducting a survey to understand your customers and in the second one you are running an experiment and this is because a new drug is introduced. So that's why you are doing this firsthand. So this is the primary data which is collected by you. Now what is secondary data? So data that has been collected and processed by someone else for a purpose other than the current research project. So for example, I have already collected some data and it is stored in a database or it can be an Excel file or it can be any file where we can store the data, right? Now you can collect this data as per your requirement, but there can be some other features or you know other information can be present in this data which is of no use for you, right? So that's why this is not only related to your current research project. Characteristics are pre-existing and often used for analysis or comparison and it can be accessed from sources like published studies or it can be accessed like government reports or historical data, right? So as long as you have the access to the database where the data resides, you can work with the secondary data. Examples for the secondary data like using census data from a government database, to analyze population trends or you can say referencing a previous study to understand the impact of a marketing campaign. So someone has already collected this data, you are retrieving it from a database or from a file and then you are analyzing it. So this is the secondary data. So we looked at primary and secondary. In short, primary data is the data which you are collecting and this is the first hand and secondary data is the data which is already collected by someone. but you are retrieving it for your analysis purpose. So this is the end of this video. Thanks for watching and I'll see you in the next video.",
+    "chunks": [
+        {
+            "number": "07",
+            "title": "Primary and Secondary Data",
+            "start": 0.0,
+            "end": 29.98,
+            "text": "Hi students, welcome to the new video of Fundamentals of Data module. So in this one, we'll be talking about primary and secondary data. So what we will learn in this video, we'll try to understand the characteristics of primary data and understanding the characteristics of the secondary data. So, so far we have learned about the structured, semi-structured and unstructured and data can also be classified as the qualitative data and the quantitative data. But we can also classify"
+        },
+        {
+            "number": "07",
+            "title": "Primary and Secondary Data",
+            "start": 29.98,
+            "end": 59.96,
+            "text": "the data as primary data and the secondary data. So what is primary data first? So as per the definition, the data collected directly from firsthand sources specifically for a particular research purpose or project. So basically you are going to collect this data and this is the firsthand data. So you are not getting the data from anywhere. Okay. So you are on the ground level if you are collecting this data. So this is called the primary data and the characteristic for the primary data."
+        },
+        {
+            "number": "07",
+            "title": "Primary and Secondary Data",
+            "start": 59.96,
+            "end": 89.94,
+            "text": "is that this is original and specific to the research because you are doing research on a particular topic, right? So you will be conducting the interview or you will be collecting this primary data specific to this topic and you are not going to record anything else. So collected through methods like surveys, experiments, interviews or observations. Let's see an example of primary data like conducting a new survey to understand consumer preferences or you are running an experiment"
+        },
+        {
+            "number": "07",
+            "title": "Primary and Secondary Data",
+            "start": 92.36,
+            "end": 118.5,
+            "text": "So you are not getting this data from any source. So this is the first hand data. In the first example, you are conducting a survey to understand your customers and in the second one you are running an experiment and this is because a new drug is introduced. So that's why you are doing this firsthand. So this is the primary data which is collected by you. Now what is secondary data?"
+        },
+        {
+            "number": "07",
+            "title": "Primary and Secondary Data",
+            "start": 119.04,
+            "end": 147.92,
+            "text": "So data that has been collected and processed by someone else for a purpose other than the current research project. So for example, I have already collected some data and it is stored in a database or it can be an Excel file or it can be any file where we can store the data, right? Now you can collect this data as per your requirement, but there can be some other features or you know other information can be present in this data which is of no use for you, right?"
+        },
+        {
+            "number": "07",
+            "title": "Primary and Secondary Data",
+            "start": 147.92,
+            "end": 177.38,
+            "text": "So that's why this is not only related to your current research project. Characteristics are pre-existing and often used for analysis or comparison and it can be accessed from sources like published studies or it can be accessed like government reports or historical data, right? So as long as you have the access to the database where the data resides, you can work with the secondary data. Examples for the secondary data like using census data from a government database,"
+        },
+        {
+            "number": "07",
+            "title": "Primary and Secondary Data",
+            "start": 177.38,
+            "end": 207.36,
+            "text": "to analyze population trends or you can say referencing a previous study to understand the impact of a marketing campaign. So someone has already collected this data, you are retrieving it from a database or from a file and then you are analyzing it. So this is the secondary data. So we looked at primary and secondary. In short, primary data is the data which you are collecting and this is the first hand and secondary data is the data which is already collected by someone."
+        },
+        {
+            "number": "07",
+            "title": "Primary and Secondary Data",
+            "start": 207.66,
+            "end": 212.32,
+            "text": "but you are retrieving it for your analysis purpose. So this is the end of this video."
+        },
+        {
+            "number": "07",
+            "title": "Primary and Secondary Data",
+            "start": 212.48,
+            "end": 214.42,
+            "text": "Thanks for watching and I'll see you in the next video."
+        }
+    ]
+}
