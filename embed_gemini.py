@@ -1,38 +1,48 @@
-"""
-All-in-one RAG embedding pipeline:
-1. Load all transcript chunk JSON files from a folder
-2. Create embeddings for each chunk using a local Ollama server (bge-m3)
-3. Build a combined pandas DataFrame
-4. Save it to disk
-5. Display it in a clean, readable format
-"""
-
 import json
 import os
-import requests
+from google import genai
 import pandas as pd
 import numpy as np
+from google.genai.errors import ClientError
+import time
 
 # ---------------------------------------------------------------
 # CONFIG
 # ---------------------------------------------------------------
-OLLAMA_URL = "http://localhost:11434/api/embeddings"
-MODEL_NAME = "bge-m3"
-JSONS_FOLDER = "jsons"          # folder containing your per-video JSON files
-OUTPUT_FILE = "embeddings.pkl"  # where the final DataFrame is saved
+
+client = genai.Client(
+    api_key=os.environ["GEMINI_API_KEY"]
+)
+
+MODEL_NAME = "gemini-embedding-001"
+
+JSONS_FOLDER = "jsons"
+OUTPUT_FILE = "embeddings_gemini.pkl"   # separate file so your working Ollama version stays intact
+
+BATCH_SIZE = 10
 
 
-def create_embedding(text: str):
-    r = requests.post(OLLAMA_URL, json={"model": MODEL_NAME, "prompt": text})
-    r.raise_for_status()
-    return r.json()["embedding"]
+def create_embeddings_batch(texts):
+    while True:
+        try:
+            response = client.models.embed_content(
+                model=MODEL_NAME,
+                contents=texts,
+            )
+            return [embedding.values for embedding in response.embeddings]
+
+        except ClientError as e:
+            if "RESOURCE_EXHAUSTED" in str(e):
+                print("Quota exceeded. Waiting 35 seconds...")
+                time.sleep(35)
+            else:
+                raise
 
 
 def load_chunks_from_file(path: str):
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    # create_all_chunks.py format: {"number", "title", "full_text", "chunks": [...]}
     if isinstance(data, dict) and "chunks" in data:
         title = data.get("title", "")
         number = data.get("number", "")
@@ -42,7 +52,6 @@ def load_chunks_from_file(path: str):
             c.setdefault("number", number)
         return chunks
 
-    # stt.py format: plain list of chunks
     return data
 
 
@@ -60,19 +69,26 @@ def load_all_chunks(folder: str):
 
 def build_dataframe(chunks):
     rows = []
-    for i, chunk in enumerate(chunks):
-        print(f"Embedding chunk {i + 1}/{len(chunks)}...")
-        embedding = create_embedding(chunk["text"])
+    total = len(chunks)
 
-        rows.append({
-            "chunk_id": i,
-            "number": chunk.get("number"),
-            "title": chunk.get("title"),
-            "start": chunk.get("start"),
-            "end": chunk.get("end"),
-            "text": chunk["text"],
-            "embedding": embedding,
-        })
+    for start in range(0, total, BATCH_SIZE):
+        end = min(start + BATCH_SIZE, total)
+        print(f"Embedding chunks {start + 1} to {end} of {total}")
+
+        batch = chunks[start:end]
+        texts = [chunk["text"] for chunk in batch]
+        embeddings = create_embeddings_batch(texts)
+
+        for chunk, embedding in zip(batch, embeddings):
+            rows.append({
+                "chunk_id": len(rows),
+                "number": chunk.get("number"),
+                "title": chunk.get("title"),
+                "start": chunk.get("start"),
+                "end": chunk.get("end"),
+                "text": chunk["text"],
+                "embedding": embedding,
+            })
 
     return pd.DataFrame(rows)
 
@@ -84,9 +100,12 @@ def cosine_similarity(vec1, vec2):
 
 
 def ask_question(df: pd.DataFrame, top_k: int = 3):
-    """Embed a typed question and return the most relevant chunks."""
     incoming_query = input("\nAsk a Question: ")
-    question_embedding = create_embedding(incoming_query)
+    response = client.models.embed_content(
+        model=MODEL_NAME,
+        contents=[incoming_query],
+    )
+    question_embedding = response.embeddings[0].values
 
     similarities = df["embedding"].apply(
         lambda emb: cosine_similarity(question_embedding, emb)
@@ -116,12 +135,10 @@ def main():
     df.to_pickle(OUTPUT_FILE)
     print(f"\nSaved {len(df)} rows with embeddings to {OUTPUT_FILE}")
 
-    # --- Clean display (pandas defaults: head+tail with "..." divider) ---
     pd.set_option('display.max_rows', 10)
     print(f"\nShape: {df.shape}\n")
     print(df)
 
-    # --- Test retrieval right away with a typed question ---
     ask_question(df)
 
 

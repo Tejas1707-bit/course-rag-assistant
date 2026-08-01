@@ -1,10 +1,11 @@
 """
-Streamlit UI for the course-video RAG assistant.
+Streamlit UI for the course-video RAG assistant (Gemini version).
 
 Run with:
-    streamlit run app.py
+    streamlit run app_gemini.py
 """
 
+import os
 from google import genai
 import pandas as pd
 import numpy as np
@@ -13,30 +14,25 @@ import streamlit as st
 # ---------------------------------------------------------------
 # CONFIG
 # ---------------------------------------------------------------
-import os
+client = genai.Client(
+    api_key=os.environ["GEMINI_API_KEY"]
+)
 
-import streamlit as st
-
-client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 EMBED_MODEL = "gemini-embedding-001"
-
-EMBEDDINGS_FILE = "embeddings.pkl"
-
+GENERATION_MODEL = "gemini-3.6-flash"
+EMBEDDINGS_FILE = "embeddings_gemini.pkl"   # must match the file embed_gemini.py saved
 TOP_K = 3
-
 SIMILARITY_THRESHOLD = 0.55
 
+
 # ---------------------------------------------------------------
-# CORE RAG FUNCTIONS (same logic as rag_generate.py)
+# CORE RAG FUNCTIONS
 # ---------------------------------------------------------------
 def create_embedding(text: str):
-
-
     response = client.models.embed_content(
         model=EMBED_MODEL,
         contents=[text],
     )
-
     return response.embeddings[0].values
 
 
@@ -80,17 +76,16 @@ Question: {query}
 Answer:"""
 
 
-def generate_answer(prompt: str):
-
+def generate_answer(prompt: str) -> str:
     response = client.models.generate_content(
-        model="gemini-2.5-flash",
+        model=GENERATION_MODEL,
         contents=prompt,
     )
-
     return response.text
 
+
 # ---------------------------------------------------------------
-# DATA LOADING (cached so it doesn't reload on every question)
+# DATA LOADING
 # ---------------------------------------------------------------
 @st.cache_data
 def load_embeddings():
@@ -109,10 +104,9 @@ try:
     df = load_embeddings()
     st.success(f"Loaded {len(df)} chunks from {len(df['title'].unique())} videos.", icon="✅")
 except FileNotFoundError:
-    st.error(f"Could not find '{EMBEDDINGS_FILE}'. Run your embedding pipeline first.")
+    st.error(f"Could not find '{EMBEDDINGS_FILE}'. Run embed_gemini.py first.")
     st.stop()
 
-# Keep chat history for the session
 if "history" not in st.session_state:
     st.session_state.history = []
 
@@ -136,7 +130,6 @@ if query:
         "chunks": top_chunks,
     })
 
-# Render chat history (most recent last, like a normal chat)
 for turn in st.session_state.history:
     with st.chat_message("user"):
         st.write(turn["query"])
