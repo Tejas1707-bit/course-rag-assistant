@@ -14,8 +14,9 @@ import streamlit as st
 # ---------------------------------------------------------------
 # CONFIG
 # ---------------------------------------------------------------
+api_key = st.secrets.get("GEMINI_API_KEY") if hasattr(st, "secrets") and "GEMINI_API_KEY" in st.secrets else os.environ.get("GEMINI_API_KEY")
 client = genai.Client(
-    api_key=os.environ["GEMINI_API_KEY"]
+    api_key=api_key
 )
 
 EMBED_MODEL = "gemini-embedding-001"
