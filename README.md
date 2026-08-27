@@ -1,4 +1,4 @@
-# 🎓 Course RAG Assistant
+# 🎓 Course RAG Assistant:-
 
 > An AI-powered Course Assistant that answers questions from course video transcripts using **Retrieval-Augmented Generation (RAG)**, semantic search, vector embeddings, and **Google Gemini AI**.
 
@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Overview
+## 📌 Overview:-
 
 **Course RAG Assistant** is a Retrieval-Augmented Generation system designed to help students interact with course content through natural-language questions.
 
@@ -24,7 +24,7 @@ This approach helps the LLM answer questions using the actual course material ra
 
 ---
 
-## 🚀 Features
+## 🚀 Features:-
 
 * 🎥 **Course Video Transcription**
 
@@ -56,7 +56,7 @@ This approach helps the LLM answer questions using the actual course material ra
 
 ---
 
-## 🏗️ RAG Architecture
+## 🏗️ RAG Architecture:-
 
 ```text
                 Course Videos
@@ -113,7 +113,7 @@ User Question ───────┤
 
 ---
 
-## 🧩 How RAG Works in This Project
+## 🧩 How RAG Works in This Project:-
 
 The system follows a standard Retrieval-Augmented Generation pipeline.
 
@@ -201,7 +201,7 @@ Question + Retrieved Context
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure:-
 
 ```text
 course-rag-assistant/
@@ -255,7 +255,7 @@ The repository currently follows this general structure, including separate scri
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Installation:-
 
 ### 1. Clone the Repository
 
@@ -292,7 +292,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔑 Environment Variables
+## 🔑 Environment Variables:-
 
 Create a `.env` file in the project directory and add your Gemini API key:
 
@@ -304,7 +304,7 @@ GEMINI_API_KEY=your_api_key_here
 
 ---
 
-## ▶️ Running the Application
+## ▶️ Running the Application:-
 
 Run the Gemini Streamlit application:
 
@@ -316,7 +316,7 @@ Then open the local Streamlit URL shown in the terminal.
 
 ---
 
-## 🌐 Live Demo
+## 🌐 Live Demo:-
 
 Try the deployed application:
 
