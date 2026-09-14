@@ -419,7 +419,7 @@ This makes the system more suitable for **domain-specific question answering**.
 
 ---
 
-## 🎯 Learning Outcomes
+## 🎯 Learning Outcomes:-
 
 This project demonstrates practical knowledge of:
 
@@ -437,7 +437,7 @@ This project demonstrates practical knowledge of:
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Author:-
 
 **Tejas Shinde**
 
@@ -445,7 +445,7 @@ GitHub: [@Tejas1707-bit](https://github.com/Tejas1707-bit)
 
 ---
 
-## ⭐ Acknowledgement
+## ⭐ Acknowledgement:-
 
 This project was developed as a practical implementation of concepts related to **Retrieval-Augmented Generation, semantic search, embeddings, and LLM-based applications**.
 
