@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Overview:-
+## 📌 Overview:-     
 
 **Course RAG Assistant** is a Retrieval-Augmented Generation system designed to help students interact with course content through natural-language questions.
 
