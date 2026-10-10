@@ -6,7 +6,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-Live%20Demo-red?logo=streamlit)](https://tejas1707-bit-course-rag-assistant-app-gemini-lipbbs.streamlit.app/)
 
 ---
-
+           
 ## 📌 Overview:-     
 
 **Course RAG Assistant** is a Retrieval-Augmented Generation system designed to help students interact with course content through natural-language questions.
