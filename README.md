@@ -1,6 +1,6 @@
 # 🎓 Course RAG Assistant:-
 
-> An AI-powered Course Assistant that answers questions from course video transcripts using **Retrieval-Augmented Generation (RAG)**, semantic search, vector embeddings, and **Google Gemini AI**.
+> An AI-powered Course Assistant that answers questions from course video transcripts using **Retrieval-Augmented Generation (RAG)**, semantic search, vector embeddings, and **Google Gemini AI**.       
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)](https://github.com/Tejas1707-bit/course-rag-assistant)
 [![Streamlit](https://img.shields.io/badge/Streamlit-Live%20Demo-red?logo=streamlit)](https://tejas1707-bit-course-rag-assistant-app-gemini-lipbbs.streamlit.app/)
